@@ -1,0 +1,324 @@
+2026-06-22 00:57:14.518 | INFO     | agent.main:build_agent:65 - DevMate 构建完成：已装配 git/search/test 工具 + skills/memory/中间件
+2026-06-22 00:57:14.530 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=60771bc060ef user=alice channel=cli
+2026-06-22 00:57:19.077 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8429 out=15 | 累计 in=8429 out=15
+2026-06-22 00:57:19.085 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：git_status
+2026-06-22 00:57:19.163 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：git_status（78 ms）
+2026-06-22 00:57:27.225 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8714 out=133 | 累计 in=17143 out=148
+2026-06-22 01:05:22.940 | INFO     | agent.main:build_agent:65 - DevMate 构建完成：已装配 git/search/test 工具 + skills/memory/中间件
+2026-06-22 01:05:22.954 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=3e4414a3734a user=alice channel=cli
+2026-06-22 01:05:27.203 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8429 out=24 | 累计 in=8429 out=24
+2026-06-22 01:05:27.210 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：git_diff
+2026-06-22 01:05:27.212 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：git_status
+2026-06-22 01:05:27.277 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：git_status（65 ms）
+2026-06-22 01:05:27.279 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：git_diff（68 ms）
+2026-06-22 01:05:39.815 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=19354 out=67 | 累计 in=27783 out=91
+2026-06-22 01:05:41.966 | WARNING  | tools.mcp:get_tools:59 - MCP server『unreachable_docs』接入失败，已跳过：unhandled errors in a TaskGroup (1 sub-exception)
+2026-06-22 01:05:41.967 | INFO     | tools.mcp:get_tools:60 - MCP 工具加载完成，共 0 个可用
+2026-06-22 02:09:43.324 | INFO     | sandbox.manager:get_or_create_sandbox_backend:121 - 查询已有沙箱失败（将新建）：'generator' object is not subscriptable
+2026-06-22 02:09:46.233 | INFO     | sandbox.manager:get_or_create_sandbox_backend:131 - 新建沙箱：thread_id=019eeb5f-c327-7110-ba95-71f4900c176d（TTL=60min）
+2026-06-22 12:24:54.458 | INFO     | sandbox.manager:get_or_create_sandbox_backend:121 - 查询已有沙箱失败（将新建）：'generator' object is not subscriptable
+2026-06-22 13:18:47.824 | INFO     | sandbox.manager:get_or_create_sandbox_backend:121 - 查询已有沙箱失败（将新建）：'generator' object is not subscriptable
+2026-06-22 13:18:49.357 | INFO     | sandbox.manager:get_or_create_sandbox_backend:131 - 新建沙箱：thread_id=019eedc4-511e-7d32-b763-a28605b677ae（TTL=60min）
+2026-06-22 13:18:51.870 | INFO     | sandbox.manager:seed_project_into_sandbox:79 - 已 seed 5 个文件进沙箱工作目录 /home/daytona
+2026-06-22 13:19:27.284 | INFO     | sandbox.manager:get_or_create_sandbox_backend:121 - 查询已有沙箱失败（将新建）：'generator' object is not subscriptable
+2026-06-22 13:19:28.643 | INFO     | sandbox.manager:get_or_create_sandbox_backend:131 - 新建沙箱：thread_id=019eedc4-ec18-77c0-842c-b733f3c50baa（TTL=60min）
+2026-06-22 13:19:30.750 | INFO     | sandbox.manager:seed_project_into_sandbox:79 - 已 seed 5 个文件进沙箱工作目录 /home/daytona
+2026-06-22 13:19:31.762 | INFO     | agent.main:build_team_agent:134 - DevMate 团队版构建完成：5 子代理 + 沙箱后端（项目已 seed 到 /home/daytona）
+2026-06-22 13:19:34.631 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=ddc3567711f4 user=alice channel=cli
+2026-06-22 13:19:45.557 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9356 out=153 | 累计 in=9356 out=153
+2026-06-22 13:19:45.565 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-22 13:19:45.567 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（3 ms）
+2026-06-22 13:20:03.324 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9658 out=249 | 累计 in=19014 out=402
+2026-06-22 13:20:03.334 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 13:20:03.336 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 13:20:24.426 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（21090 ms）
+2026-06-22 13:20:34.254 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（30920 ms）
+2026-06-22 13:20:45.467 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10017 out=105 | 累计 in=29031 out=507
+2026-06-22 13:20:45.473 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 13:20:48.545 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（3071 ms）
+2026-06-22 13:20:53.892 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10623 out=54 | 累计 in=39654 out=561
+2026-06-22 13:20:53.897 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 13:20:56.872 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（2974 ms）
+2026-06-22 13:21:08.834 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11027 out=166 | 累计 in=50681 out=727
+2026-06-22 13:21:08.840 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 13:21:11.507 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（2667 ms）
+2026-06-22 13:21:20.677 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11925 out=86 | 累计 in=62606 out=813
+2026-06-22 13:21:20.683 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-22 13:21:27.843 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（7159 ms）
+2026-06-22 13:21:35.910 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=12336 out=111 | 累计 in=74942 out=924
+2026-06-22 13:21:35.916 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 13:21:41.127 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（5211 ms）
+2026-06-22 13:21:53.630 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=12659 out=193 | 累计 in=87601 out=1117
+2026-06-22 13:21:53.634 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 13:22:37.572 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（43938 ms）
+2026-06-22 13:22:47.468 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=12940 out=103 | 累计 in=100541 out=1220
+2026-06-22 13:22:47.472 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:22:48.985 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1512 ms）
+2026-06-22 13:22:55.302 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=13071 out=67 | 累计 in=113612 out=1287
+2026-06-22 13:22:55.309 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 13:23:01.748 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（6439 ms）
+2026-06-22 13:23:18.142 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=14647 out=239 | 累计 in=128259 out=1526
+2026-06-22 13:23:18.149 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 13:24:29.130 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（70980 ms）
+2026-06-22 13:24:48.018 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=14992 out=301 | 累计 in=143251 out=1827
+2026-06-22 13:24:48.026 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:24:49.619 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1593 ms）
+2026-06-22 13:25:00.871 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=15356 out=243 | 累计 in=158607 out=2070
+2026-06-22 13:25:00.879 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:25:02.573 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1694 ms）
+2026-06-22 13:25:08.587 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=15661 out=38 | 累计 in=174268 out=2108
+2026-06-22 13:25:08.594 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-22 13:25:10.190 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（1596 ms）
+2026-06-22 13:25:23.376 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=16043 out=242 | 累计 in=190311 out=2350
+2026-06-22 13:25:23.386 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:25:25.816 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2430 ms）
+2026-06-22 13:25:38.869 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=16351 out=240 | 累计 in=206662 out=2590
+2026-06-22 13:25:38.875 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:25:41.207 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2332 ms）
+2026-06-22 13:25:51.170 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=16656 out=35 | 累计 in=223318 out=2625
+2026-06-22 13:25:51.176 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-22 13:25:53.394 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（2218 ms）
+2026-06-22 13:26:10.705 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=17038 out=240 | 累计 in=240356 out=2865
+2026-06-22 13:26:10.716 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:26:12.272 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1557 ms）
+2026-06-22 13:26:24.374 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=17343 out=243 | 累计 in=257699 out=3108
+2026-06-22 13:26:24.384 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:26:25.907 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1522 ms）
+2026-06-22 13:26:38.449 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=17648 out=240 | 累计 in=275347 out=3348
+2026-06-22 13:26:38.477 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:26:40.143 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1666 ms）
+2026-06-22 13:26:59.250 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=17953 out=240 | 累计 in=293300 out=3588
+2026-06-22 13:26:59.258 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:27:01.762 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2504 ms）
+2026-06-22 13:27:22.721 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=18258 out=240 | 累计 in=311558 out=3828
+2026-06-22 13:27:22.728 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:27:24.508 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1780 ms）
+2026-06-22 13:27:38.634 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=18563 out=240 | 累计 in=330121 out=4068
+2026-06-22 13:27:38.640 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:27:40.410 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1769 ms）
+2026-06-22 13:27:52.267 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=18868 out=240 | 累计 in=348989 out=4308
+2026-06-22 13:27:52.272 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:27:55.198 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2925 ms）
+2026-06-22 13:28:05.170 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=19173 out=240 | 累计 in=368162 out=4548
+2026-06-22 13:28:05.178 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:28:07.123 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1945 ms）
+2026-06-22 13:28:17.969 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=19478 out=240 | 累计 in=387640 out=4788
+2026-06-22 13:28:17.977 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:28:19.797 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1819 ms）
+2026-06-22 13:28:33.231 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=19783 out=240 | 累计 in=407423 out=5028
+2026-06-22 13:28:33.239 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:28:35.668 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2429 ms）
+2026-06-22 13:28:47.152 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=20088 out=240 | 累计 in=427511 out=5268
+2026-06-22 13:28:47.164 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:28:50.522 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（3358 ms）
+2026-06-22 13:29:01.480 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=20393 out=240 | 累计 in=447904 out=5508
+2026-06-22 13:29:01.489 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:29:03.839 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2350 ms）
+2026-06-22 13:29:15.989 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=20698 out=240 | 累计 in=468602 out=5748
+2026-06-22 13:29:16.000 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:29:17.789 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1788 ms）
+2026-06-22 13:29:30.488 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=21003 out=240 | 累计 in=489605 out=5988
+2026-06-22 13:29:30.496 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:29:32.892 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2396 ms）
+2026-06-22 13:29:46.923 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=21308 out=240 | 累计 in=510913 out=6228
+2026-06-22 13:29:46.929 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:29:49.789 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2859 ms）
+2026-06-22 13:30:04.393 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=21613 out=240 | 累计 in=532526 out=6468
+2026-06-22 13:30:04.396 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:30:06.435 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2038 ms）
+2026-06-22 13:30:18.326 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=21918 out=240 | 累计 in=554444 out=6708
+2026-06-22 13:30:18.330 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:30:20.627 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2297 ms）
+2026-06-22 13:30:32.545 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=22223 out=240 | 累计 in=576667 out=6948
+2026-06-22 13:30:32.553 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:30:34.355 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1802 ms）
+2026-06-22 13:30:48.709 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=22528 out=240 | 累计 in=599195 out=7188
+2026-06-22 13:30:48.717 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:30:50.840 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2123 ms）
+2026-06-22 13:31:01.905 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=22833 out=240 | 累计 in=622028 out=7428
+2026-06-22 13:31:01.911 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:31:03.756 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1845 ms）
+2026-06-22 13:31:15.019 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=23138 out=240 | 累计 in=645166 out=7668
+2026-06-22 13:31:15.028 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:31:17.755 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2727 ms）
+2026-06-22 13:31:34.151 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=23443 out=240 | 累计 in=668609 out=7908
+2026-06-22 13:31:34.159 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:31:36.511 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2352 ms）
+2026-06-22 13:31:50.114 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=23748 out=240 | 累计 in=692357 out=8148
+2026-06-22 13:31:50.120 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:31:52.923 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2802 ms）
+2026-06-22 13:32:04.455 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=24053 out=240 | 累计 in=716410 out=8388
+2026-06-22 13:32:04.463 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:32:06.700 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2238 ms）
+2026-06-22 13:32:21.730 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=24358 out=240 | 累计 in=740768 out=8628
+2026-06-22 13:32:21.739 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:32:23.603 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1864 ms）
+2026-06-22 13:32:37.761 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=24663 out=240 | 累计 in=765431 out=8868
+2026-06-22 13:32:37.774 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:32:39.606 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1832 ms）
+2026-06-22 13:32:52.371 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=24968 out=240 | 累计 in=790399 out=9108
+2026-06-22 13:32:52.378 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:32:54.717 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2339 ms）
+2026-06-22 13:33:14.288 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=25273 out=240 | 累计 in=815672 out=9348
+2026-06-22 13:33:14.296 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:33:16.768 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2472 ms）
+2026-06-22 13:33:30.637 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=25578 out=240 | 累计 in=841250 out=9588
+2026-06-22 13:33:30.650 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:33:32.457 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1806 ms）
+2026-06-22 13:33:57.033 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=25883 out=240 | 累计 in=867133 out=9828
+2026-06-22 13:33:57.039 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:33:58.587 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1548 ms）
+2026-06-22 13:34:11.263 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=26188 out=240 | 累计 in=893321 out=10068
+2026-06-22 13:34:11.271 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:34:13.412 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2141 ms）
+2026-06-22 13:34:27.383 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=26493 out=240 | 累计 in=919814 out=10308
+2026-06-22 13:34:27.388 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:34:28.924 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1535 ms）
+2026-06-22 13:34:42.746 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=26798 out=240 | 累计 in=946612 out=10548
+2026-06-22 13:34:42.752 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:34:45.588 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2836 ms）
+2026-06-22 13:35:03.784 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=27103 out=240 | 累计 in=973715 out=10788
+2026-06-22 13:35:03.801 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:35:05.971 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2169 ms）
+2026-06-22 13:35:20.646 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=27408 out=240 | 累计 in=1001123 out=11028
+2026-06-22 13:35:20.653 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:35:23.858 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（3205 ms）
+2026-06-22 13:35:40.971 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=27713 out=240 | 累计 in=1028836 out=11268
+2026-06-22 13:35:40.975 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:35:44.242 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（3266 ms）
+2026-06-22 13:35:57.937 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=28018 out=240 | 累计 in=1056854 out=11508
+2026-06-22 13:35:57.942 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:36:00.960 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（3018 ms）
+2026-06-22 13:36:16.790 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=28323 out=240 | 累计 in=1085177 out=11748
+2026-06-22 13:36:16.795 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:36:19.169 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2374 ms）
+2026-06-22 13:36:40.005 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=28628 out=240 | 累计 in=1113805 out=11988
+2026-06-22 13:36:40.013 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:36:42.006 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1993 ms）
+2026-06-22 13:36:54.330 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=28933 out=240 | 累计 in=1142738 out=12228
+2026-06-22 13:36:54.339 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:36:56.519 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2179 ms）
+2026-06-22 13:37:10.133 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=29238 out=240 | 累计 in=1171976 out=12468
+2026-06-22 13:37:10.137 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:37:12.197 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2060 ms）
+2026-06-22 13:37:25.129 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=29543 out=240 | 累计 in=1201519 out=12708
+2026-06-22 13:37:25.136 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:37:26.671 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1535 ms）
+2026-06-22 13:37:41.564 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=29848 out=240 | 累计 in=1231367 out=12948
+2026-06-22 13:37:41.569 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:37:43.171 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1603 ms）
+2026-06-22 13:37:56.612 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=30153 out=240 | 累计 in=1261520 out=13188
+2026-06-22 13:37:56.617 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:37:58.575 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（1958 ms）
+2026-06-22 13:38:16.903 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=30458 out=240 | 累计 in=1291978 out=13428
+2026-06-22 13:38:16.909 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-22 13:38:19.372 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（2463 ms）
+2026-06-22 13:38:26.004 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9170 out=19 | 累计 in=1301148 out=13447
+2026-06-22 13:38:26.009 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：ls
+2026-06-22 13:38:27.689 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：ls（1680 ms）
+2026-06-22 13:38:42.949 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9170 out=180 | 累计 in=1310318 out=13627
+2026-06-22 13:38:42.957 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 13:39:19.587 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（36630 ms）
+2026-06-22 13:39:35.858 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9170 out=144 | 累计 in=1319488 out=13771
+2026-06-22 13:39:35.865 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-22 13:39:35.866 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（1 ms）
+2026-06-22 13:39:57.412 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9170 out=292 | 累计 in=1328658 out=14063
+2026-06-22 13:39:57.420 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 13:39:57.423 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：ls
+2026-06-22 13:39:59.086 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：ls（1663 ms）
+2026-06-22 13:40:46.719 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（49298 ms）
+2026-06-22 13:41:02.245 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9170 out=133 | 累计 in=1337828 out=14196
+2026-06-22 13:41:02.251 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 13:42:46.204 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（103953 ms）
+2026-06-22 13:43:05.923 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9170 out=212 | 累计 in=1346998 out=14408
+2026-06-22 13:43:05.928 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 13:53:34.398 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（628469 ms）
+2026-06-22 13:53:46.849 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9170 out=78 | 累计 in=1356168 out=14486
+2026-06-22 13:53:46.857 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-22 13:53:46.858 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-22 13:53:49.509 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（2651 ms）
+2026-06-22 13:54:16.617 | INFO     | agent.dispatcher:run_issue:51 - 沙箱已回收：thread_id=019eedc4-ec18-77c0-842c-b733f3c50baa
+2026-06-22 14:10:24.229 | INFO     | sandbox.manager:get_or_create_sandbox_backend:121 - 查询已有沙箱失败（将新建）：'generator' object is not subscriptable
+2026-06-22 14:10:26.868 | INFO     | sandbox.manager:get_or_create_sandbox_backend:131 - 新建沙箱：thread_id=019eedf3-8ecb-7861-abe5-ec262dc5b0b1（TTL=60min）
+2026-06-22 14:10:29.552 | INFO     | sandbox.manager:seed_project_into_sandbox:79 - 已 seed 5 个文件进沙箱工作目录 /home/daytona
+2026-06-22 14:10:31.085 | INFO     | agent.main:build_team_agent:134 - DevMate 团队版构建完成：5 子代理 + 沙箱后端（项目已 seed 到 /home/daytona）
+2026-06-22 14:10:34.502 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=3e78f6ee8080 user=alice channel=cli
+2026-06-22 14:10:47.620 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9356 out=142 | 累计 in=9356 out=142
+2026-06-22 14:10:47.629 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-22 14:10:47.633 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（3 ms）
+2026-06-22 14:10:54.043 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9636 out=36 | 累计 in=18992 out=178
+2026-06-22 14:10:54.049 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-22 14:10:55.582 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（1533 ms）
+2026-06-22 14:11:05.747 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9696 out=134 | 累计 in=28688 out=312
+2026-06-22 14:11:05.755 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 14:11:05.759 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 14:11:26.446 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（20688 ms）
+2026-06-22 14:11:30.009 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（24254 ms）
+2026-06-22 14:11:35.561 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9954 out=20 | 累计 in=38642 out=332
+2026-06-22 14:11:35.570 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 14:11:38.205 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（2635 ms）
+2026-06-22 14:11:45.258 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10345 out=30 | 累计 in=48987 out=362
+2026-06-22 14:11:45.265 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 14:11:48.717 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（3451 ms）
+2026-06-22 14:11:59.624 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10725 out=88 | 累计 in=59712 out=450
+2026-06-22 14:11:59.631 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 14:15:30.893 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（211262 ms）
+2026-06-22 14:15:38.929 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10936 out=24 | 累计 in=70648 out=474
+2026-06-22 14:15:38.939 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 14:15:41.480 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（2542 ms）
+2026-06-22 14:15:49.172 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11446 out=30 | 累计 in=82094 out=504
+2026-06-22 14:15:49.182 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-22 14:15:52.670 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（3488 ms）
+2026-06-22 14:16:04.271 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11857 out=176 | 累计 in=93951 out=680
+2026-06-22 14:16:04.276 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 14:24:38.091 | WARNING  | agent.dispatcher:run_issue:53 - 沙箱回收失败（thread_id=019eedf3-8ecb-7861-abe5-ec262dc5b0b1）：Failed to stop sandbox: HTTPSConnectionPool(host='app.daytona.io', port=443): Max retries exceeded with url: /api/sandbox/003371d1-62f8-4f47-aaad-fee6c2ee438c/stop?force=false (Caused by NameResolutionError("HTTPSConnection(host='app.daytona.io', port=443): Failed to resolve 'app.daytona.io' ([Errno 11001] getaddrinfo failed)"))
+2026-06-22 23:33:22.421 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-max
+2026-06-22 23:33:23.482 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-22 23:33:23.484 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-22 23:33:23.523 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-22 23:37:54.144 | INFO     | sandbox.manager:get_or_create_sandbox_backend:121 - 查询已有沙箱失败（将新建）：'generator' object is not subscriptable
+2026-06-22 23:38:00.528 | INFO     | sandbox.manager:get_or_create_sandbox_backend:131 - 新建沙箱：thread_id=019eeffb-1ffc-7663-96ec-491389fc1a6f（TTL=60min）
+2026-06-22 23:38:02.413 | INFO     | sandbox.manager:seed_project_into_sandbox:79 - 已 seed 5 个文件进沙箱工作目录 /home/daytona
+2026-06-22 23:38:03.314 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-max
+2026-06-22 23:38:03.315 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-22 23:38:03.316 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-22 23:38:03.423 | INFO     | agent.main:build_team_agent:134 - DevMate 团队版构建完成：5 子代理 + 沙箱后端（项目已 seed 到 /home/daytona）
+2026-06-22 23:38:06.264 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=7adaffb6c01e user=alice channel=cli
+2026-06-22 23:38:17.802 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9230 out=152 | 累计 in=9230 out=152
+2026-06-22 23:38:17.810 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-22 23:38:17.813 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-22 23:38:35.728 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9530 out=363 | 累计 in=18760 out=515
+2026-06-22 23:38:35.736 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 23:38:35.742 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 23:38:54.106 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（18364 ms）
+2026-06-22 23:40:57.490 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（141754 ms）
+2026-06-22 23:41:17.281 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10517 out=516 | 累计 in=29277 out=1031
+2026-06-22 23:41:17.286 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 23:41:17.287 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 23:42:18.055 | INFO     | agent.dispatcher:run_issue:51 - 沙箱已回收：thread_id=019eeffb-1ffc-7663-96ec-491389fc1a6f
+2026-06-22 23:52:55.865 | INFO     | sandbox.manager:get_or_create_sandbox_backend:121 - 查询已有沙箱失败（将新建）：'generator' object is not subscriptable
+2026-06-22 23:52:57.996 | INFO     | sandbox.manager:get_or_create_sandbox_backend:131 - 新建沙箱：thread_id=019ef008-e33e-7ba0-9452-37eb537d38ce（TTL=60min）
+2026-06-22 23:52:59.870 | INFO     | sandbox.manager:seed_project_into_sandbox:79 - 已 seed 5 个文件进沙箱工作目录 /home/daytona
+2026-06-22 23:53:00.862 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-max
+2026-06-22 23:53:00.864 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-22 23:53:00.864 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-22 23:53:00.985 | INFO     | agent.main:build_team_agent:134 - DevMate 团队版构建完成：5 子代理 + 沙箱后端（项目已 seed 到 /home/daytona）
+2026-06-22 23:53:11.893 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=883fa0d90e90 user=alice channel=cli
+2026-06-22 23:53:22.134 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9230 out=134 | 累计 in=9230 out=134
+2026-06-22 23:53:22.139 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-22 23:53:22.140 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（1 ms）
+2026-06-22 23:53:29.148 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9494 out=45 | 累计 in=18724 out=179
+2026-06-22 23:53:29.151 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：ls
+2026-06-22 23:53:29.152 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：ls
+2026-06-22 23:53:31.719 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：ls（2568 ms）
+2026-06-22 23:53:32.808 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：ls（3656 ms）
+2026-06-22 23:53:38.243 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9566 out=72 | 累计 in=28290 out=251
+2026-06-22 23:53:38.249 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-22 23:53:38.250 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-22 23:53:39.587 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（1338 ms）
+2026-06-22 23:53:39.908 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（1658 ms）
+2026-06-22 23:53:58.070 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9681 out=376 | 累计 in=37971 out=627
+2026-06-22 23:53:58.074 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 23:53:58.075 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-22 23:54:38.994 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（40919 ms）
+2026-06-23 00:06:08.040 | INFO     | agent.dispatcher:run_issue:51 - 沙箱已回收：thread_id=019ef008-e33e-7ba0-9452-37eb537d38ce

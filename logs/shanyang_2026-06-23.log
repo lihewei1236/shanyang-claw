@@ -1,0 +1,239 @@
+2026-06-23 00:54:26.643 | INFO     | sandbox.manager:get_or_create_sandbox_backend:121 - 查询已有沙箱失败（将新建）：'generator' object is not subscriptable
+2026-06-23 00:54:28.750 | INFO     | sandbox.manager:get_or_create_sandbox_backend:131 - 新建沙箱：thread_id=019ef041-33cf-7590-b408-9b3d454c103b（TTL=60min）
+2026-06-23 00:54:30.551 | INFO     | sandbox.manager:seed_project_into_sandbox:79 - 已 seed 5 个文件进沙箱工作目录 /home/daytona
+2026-06-23 00:54:31.489 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-max
+2026-06-23 00:54:31.490 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-23 00:54:31.491 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-23 00:54:31.618 | INFO     | agent.main:build_team_agent:134 - DevMate 团队版构建完成：5 子代理 + 沙箱后端（项目已 seed 到 /home/daytona）
+2026-06-23 00:54:34.909 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=49083c47f07b user=alice channel=cli
+2026-06-23 00:54:39.086 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 00:54:39.086 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 00:54:45.267 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9230 out=149 | 累计 in=9230 out=149
+2026-06-23 00:54:45.272 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-23 00:54:45.273 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（1 ms）
+2026-06-23 00:55:02.642 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9524 out=328 | 累计 in=18754 out=477
+2026-06-23 00:55:02.650 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-23 00:55:02.651 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-23 00:55:45.781 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（43129 ms）
+2026-06-23 00:56:26.758 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（84108 ms）
+2026-06-23 00:56:30.005 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10281 out=22 | 累计 in=29035 out=499
+2026-06-23 00:56:30.009 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：ls
+2026-06-23 00:56:31.916 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：ls（1907 ms）
+2026-06-23 00:56:39.949 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10320 out=124 | 累计 in=39355 out=623
+2026-06-23 00:56:39.955 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：execute
+2026-06-23 00:56:41.225 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：execute（1270 ms）
+2026-06-23 00:56:45.724 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10473 out=60 | 累计 in=49828 out=683
+2026-06-23 00:56:45.727 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-23 00:58:26.792 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 00:58:26.792 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:01:15.156 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:01:15.157 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:01:15.505 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:05:20.765 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:05:23.519 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:05:23.520 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:05:23.624 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:05:28.640 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:05:31.385 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:05:31.386 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:05:31.469 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:08:06.166 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：task（680438 ms）
+2026-06-23 01:08:17.260 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10730 out=157 | 累计 in=60558 out=840
+2026-06-23 01:08:17.263 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：task
+2026-06-23 01:17:19.710 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=1c205782010c user=alice channel=api
+2026-06-23 01:17:23.296 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8368 out=32 | 累计 in=8368 out=32
+2026-06-23 01:17:23.535 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=91b0e828c376 user=alice channel=api
+2026-06-23 01:17:25.380 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8419 out=30 | 累计 in=16787 out=62
+2026-06-23 01:17:25.385 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-23 01:17:25.388 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（3 ms）
+2026-06-23 01:17:30.921 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8468 out=70 | 累计 in=25255 out=132
+2026-06-23 01:17:30.930 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：ls
+2026-06-23 01:17:30.936 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：ls（6 ms）
+2026-06-23 01:17:51.671 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8547 out=469 | 累计 in=33802 out=601
+2026-06-23 01:17:51.678 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-23 01:17:51.684 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（5 ms）
+2026-06-23 01:17:57.408 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9032 out=96 | 累计 in=42834 out=697
+2026-06-23 01:17:57.697 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:18:00.829 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:18:00.830 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:18:00.981 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:18:49.161 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:18:53.713 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:18:53.719 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:18:54.109 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:18:54.446 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:18:59.155 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:18:59.156 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:18:59.210 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:19:17.594 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:19:20.434 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:19:20.435 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:19:20.493 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:19:26.044 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:19:28.805 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:19:28.806 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:19:28.875 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:21:08.202 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:21:11.003 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:21:11.004 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:21:11.089 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:21:16.608 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:21:19.363 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:21:19.364 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:21:19.422 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:21:49.404 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:21:52.232 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:21:52.233 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:21:52.334 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:21:55.251 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:21:58.011 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:21:58.012 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:21:58.080 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:25:40.060 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:25:42.942 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:25:42.943 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:25:43.006 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:28:19.128 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:28:21.909 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:28:21.909 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:28:21.998 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:29:10.350 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:29:13.236 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:29:13.236 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:29:13.277 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:29:46.810 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:29:49.573 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:29:49.575 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:29:49.623 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:29:51.786 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:29:54.814 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:29:54.815 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:29:54.888 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:29:56.152 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:29:58.911 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:29:58.912 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:29:58.976 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:30:00.275 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:30:03.105 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:30:03.106 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:30:03.213 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:31:56.581 | INFO     | __main__:run:86 - 飞书长连接启动…（确保飞书后台已选『长连接接收事件』并发布版本）
+2026-06-23 01:32:25.026 | INFO     | __main__:on_message:74 - 飞书收到消息：chat=oc_17205555f986a6937816c7d51797351e user=ou_b84cb75b4bdf75db2219fec9631ef6e7
+2026-06-23 01:32:26.023 | INFO     | channels.handler:handle_message:20 - 处理消息：channel=feishu user=ou_b84cb75b4bdf75db2219fec9631ef6e7 thread=4b74bf15279c5c38f4aef9bf3b5e1fbb
+2026-06-23 01:32:27.325 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=b66ff915d10b user=ou_b84cb75b4bdf75db2219fec9631ef6e7 channel=feishu
+2026-06-23 01:32:29.893 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8230 out=8 | 累计 in=33240 out=69
+2026-06-23 01:33:03.361 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:33:06.163 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:33:06.164 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:33:06.242 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:33:11.900 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:33:14.705 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:33:14.705 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:33:14.769 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:35:47.001 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:35:49.822 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:35:49.823 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:35:49.870 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:35:52.874 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:35:55.564 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:35:55.564 | INFO     | api.app:lifespan:33 - Postgres 连接池已打开
+2026-06-23 01:35:55.604 | INFO     | api.app:lifespan:40 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:36:27.845 | INFO     | api.app:lifespan:57 - 连接池已释放
+2026-06-23 01:36:35.202 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:36:35.203 | INFO     | api.app:lifespan:34 - Postgres 连接池已打开
+2026-06-23 01:36:35.261 | INFO     | api.app:lifespan:41 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:37:12.799 | INFO     | api.app:lifespan:58 - 连接池已释放
+2026-06-23 01:37:15.849 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:37:15.849 | INFO     | api.app:lifespan:34 - Postgres 连接池已打开
+2026-06-23 01:37:15.901 | INFO     | api.app:lifespan:41 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:37:20.858 | INFO     | api.app:lifespan:58 - 连接池已释放
+2026-06-23 01:37:23.572 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:37:23.573 | INFO     | api.app:lifespan:34 - Postgres 连接池已打开
+2026-06-23 01:37:23.661 | INFO     | api.app:lifespan:41 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:37:26.887 | INFO     | channels.handler:handle_message:20 - 处理消息：channel=webhook user=test thread=75a5b31afb2a5d4726b55b070370375e
+2026-06-23 01:37:27.695 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=59bfb96df732 user=test channel=webhook
+2026-06-23 01:37:32.134 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8300 out=54 | 累计 in=25039 out=141
+2026-06-23 01:37:32.144 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-23 01:37:32.150 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（6 ms）
+2026-06-23 01:37:40.179 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8376 out=156 | 累计 in=33415 out=297
+2026-06-23 01:37:40.189 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-23 01:37:40.196 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（7 ms）
+2026-06-23 01:37:46.623 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8551 out=140 | 累计 in=41966 out=437
+2026-06-23 01:37:46.631 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-23 01:37:46.637 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（6 ms）
+2026-06-23 01:37:55.356 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8960 out=255 | 累计 in=50926 out=692
+2026-06-23 01:37:55.365 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-23 01:37:55.368 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（3 ms）
+2026-06-23 01:38:04.669 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9260 out=147 | 累计 in=60186 out=839
+2026-06-23 01:38:04.676 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-23 01:38:04.681 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（5 ms）
+2026-06-23 01:38:08.829 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9433 out=94 | 累计 in=69619 out=933
+2026-06-23 01:38:09.037 | INFO     | channels.handler:handle_message:20 - 处理消息：channel=webhook user=test thread=75a5b31afb2a5d4726b55b070370375e
+2026-06-23 01:38:09.088 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=8a43aca1f6b1 user=test channel=webhook
+2026-06-23 01:38:13.002 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9547 out=38 | 累计 in=79166 out=971
+2026-06-23 01:38:13.249 | INFO     | channels.handler:handle_message:20 - 处理消息：channel=webhook user=test thread=c1b45f2d06c1cc03d38e28272ebbe0d6
+2026-06-23 01:38:13.305 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=ee5c1d93d7a4 user=test channel=webhook
+2026-06-23 01:38:15.020 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8213 out=25 | 累计 in=16547 out=47
+2026-06-23 01:38:36.712 | INFO     | api.app:lifespan:58 - 连接池已释放
+2026-06-23 01:38:39.784 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:38:39.785 | INFO     | api.app:lifespan:34 - Postgres 连接池已打开
+2026-06-23 01:38:39.866 | INFO     | api.app:lifespan:41 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:38:44.663 | INFO     | api.app:lifespan:58 - 连接池已释放
+2026-06-23 01:38:47.391 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:38:47.392 | INFO     | api.app:lifespan:34 - Postgres 连接池已打开
+2026-06-23 01:38:47.464 | INFO     | api.app:lifespan:41 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:39:10.181 | INFO     | channels.handler:handle_message:20 - 处理消息：channel=webhook user=cli thread=f32bfdf408883d72592bcea8880ac4a7
+2026-06-23 01:39:11.052 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=fedd982b1b0d user=cli channel=webhook
+2026-06-23 01:39:12.603 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8314 out=26 | 累计 in=25052 out=130
+2026-06-23 01:39:13.495 | INFO     | channels.handler:handle_message:20 - 处理消息：channel=webhook user=cli thread=f32bfdf408883d72592bcea8880ac4a7
+2026-06-23 01:39:13.538 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=8bf2a94ab28f user=cli channel=webhook
+2026-06-23 01:39:14.917 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8359 out=26 | 累计 in=33411 out=156
+2026-06-23 01:39:40.977 | INFO     | api.app:lifespan:58 - 连接池已释放
+2026-06-23 01:39:48.192 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:39:48.193 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:39:48.302 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:43:35.312 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:43:38.202 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:43:38.203 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:43:38.269 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:43:40.419 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:46:21.172 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:46:21.173 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:46:21.265 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:46:30.964 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:46:33.918 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:46:33.919 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:46:34.013 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:46:53.857 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:46:56.654 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:46:56.654 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:46:56.706 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:47:01.822 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:47:04.669 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:47:04.670 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:47:04.733 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:48:43.496 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:48:46.339 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:48:46.339 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:48:46.401 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:48:48.733 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:48:51.625 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:48:51.626 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:48:51.696 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:49:57.051 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:49:59.795 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:49:59.796 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:49:59.850 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:50:01.999 | INFO     | api.app:lifespan:59 - 连接池已释放
+2026-06-23 01:50:04.823 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-23 01:50:04.824 | INFO     | api.app:lifespan:35 - Postgres 连接池已打开
+2026-06-23 01:50:04.884 | INFO     | api.app:lifespan:42 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-23 01:50:38.290 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=d78007d87078 user=same-user channel=api
+2026-06-23 01:50:40.309 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8373 out=32 | 累计 in=33558 out=187
+2026-06-23 01:50:40.319 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-23 01:50:40.329 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（9 ms）
+2026-06-23 01:50:44.084 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8420 out=51 | 累计 in=41978 out=238
+2026-06-23 01:50:44.363 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=578d431623c5 user=same-user channel=api
+2026-06-23 01:50:46.170 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8485 out=38 | 累计 in=50463 out=276
+2026-06-23 01:50:46.408 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=b1dd92f8d40c user=same-user channel=api
+2026-06-23 01:50:52.011 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8214 out=64 | 累计 in=16542 out=99

@@ -1,0 +1,39 @@
+2026-06-21 00:13:17.904 | INFO     | agent.main:build_agent:77 - DevMate 构建完成：已挂载 上下文 / 审计 / 成本 中间件
+2026-06-21 00:13:17.910 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=df87cb85c628 user=alice channel=cli
+2026-06-21 00:13:24.450 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=6052 out=154 | 累计 in=6052 out=154
+2026-06-21 00:13:24.458 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-21 00:13:24.461 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（3 ms）
+2026-06-21 00:13:36.530 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=6356 out=540 | 累计 in=12408 out=694
+2026-06-21 00:13:36.538 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-21 00:13:36.542 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（5 ms）
+2026-06-21 00:13:40.739 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=6909 out=156 | 累计 in=19317 out=850
+2026-06-21 00:13:40.745 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-21 00:13:40.747 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-21 00:13:44.758 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=7215 out=162 | 累计 in=26532 out=1012
+2026-06-21 13:28:37.590 | INFO     | agent.main:build_agent:63 - DevMate 构建完成：FilesystemBackend + skills + memory + 中间件
+2026-06-21 13:28:37.601 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=547b503c7d93 user=alice channel=cli
+2026-06-21 13:28:43.480 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=7856 out=102 | 累计 in=7856 out=102
+2026-06-21 13:28:43.489 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-21 13:28:43.491 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-21 13:28:45.813 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8056 out=37 | 累计 in=15912 out=139
+2026-06-21 13:28:45.817 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-21 13:28:45.820 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（3 ms）
+2026-06-21 13:28:52.586 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8362 out=161 | 累计 in=24274 out=300
+2026-06-21 13:28:52.598 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：edit_file
+2026-06-21 13:28:52.606 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：edit_file（8 ms）
+2026-06-21 13:29:00.323 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8538 out=155 | 累计 in=32812 out=455
+2026-06-21 13:29:00.334 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-21 13:29:00.338 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（4 ms）
+2026-06-21 13:29:05.678 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8704 out=104 | 累计 in=41516 out=559
+2026-06-21 13:29:05.683 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-21 13:29:05.684 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（1 ms）
+2026-06-21 13:29:07.371 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8906 out=35 | 累计 in=50422 out=594
+2026-06-21 13:29:07.377 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：read_file
+2026-06-21 13:29:07.380 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：read_file（3 ms）
+2026-06-21 13:29:14.206 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9180 out=178 | 累计 in=59602 out=772
+2026-06-21 13:29:14.213 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-21 13:29:14.217 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（4 ms）
+2026-06-21 13:29:17.780 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9373 out=104 | 累计 in=68975 out=876
+2026-06-21 13:29:17.787 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-21 13:29:17.789 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-21 13:29:22.356 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9575 out=107 | 累计 in=78550 out=983

@@ -1,0 +1,772 @@
+2026-06-24 00:16:56.657 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:16:56.659 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:17:43.471 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:17:43.471 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:18:03.528 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:18:03.529 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:18:59.336 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:18:59.337 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:20:13.855 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:20:13.855 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:20:14.137 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:23:09.186 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:23:12.104 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:23:12.104 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:23:12.253 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:23:16.993 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=201c915a953b user=alice channel=api
+2026-06-24 00:23:21.391 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8360 out=25 | 累计 in=8360 out=25
+2026-06-24 00:23:21.694 | INFO     | api.routes.tasks_bg:_run_task:30 - 后台任务完成：7c29a9789b504511a90b26f0d015d4aa
+2026-06-24 00:28:27.864 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:28:35.162 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:28:35.163 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:28:35.237 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:29:25.378 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:29:29.092 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:29:29.092 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:29:29.151 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:29:33.521 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:29:36.328 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:29:36.329 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:29:36.386 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:29:44.322 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:29:47.481 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:29:47.482 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:29:47.548 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:29:50.570 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:29:53.559 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:29:53.560 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:29:53.638 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:30:51.167 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:30:54.758 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:30:54.759 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:30:54.828 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:31:07.134 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:31:10.629 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:31:10.630 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:31:10.710 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:31:26.456 | INFO     | api.app:lifespan:63 - 连接池已释放
+2026-06-24 00:31:29.663 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:31:29.664 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:31:29.707 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:31:35.728 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:31:35.729 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:31:35.803 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:31:53.378 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:31:53.379 | INFO     | api.app:lifespan:36 - Postgres 连接池已打开
+2026-06-24 00:31:53.446 | INFO     | api.app:lifespan:43 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:32:01.881 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:32:01.882 | INFO     | api.app:lifespan:38 - Postgres 连接池已打开
+2026-06-24 00:32:01.986 | INFO     | api.app:lifespan:45 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:32:07.250 | INFO     | api.app:lifespan:68 - 连接池已释放
+2026-06-24 00:32:10.449 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:32:10.450 | INFO     | api.app:lifespan:38 - Postgres 连接池已打开
+2026-06-24 00:32:10.552 | INFO     | api.app:lifespan:45 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:32:13.581 | INFO     | api.app:lifespan:68 - 连接池已释放
+2026-06-24 00:32:16.691 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:32:16.692 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 00:32:16.858 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:32:23.551 | INFO     | tasks.worker:on_startup:47 - arq worker 启动：持久化资源就绪
+2026-06-24 00:32:32.513 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 00:32:35.636 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:32:35.638 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 00:32:35.707 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:32:37.957 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 00:32:41.007 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:32:41.008 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 00:32:41.078 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:32:45.524 | INFO     | tasks.worker:process_issue:34 - worker 处理任务：conv=01bd0c0b5c344880ae59b430ee31303b
+2026-06-24 00:32:46.480 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=18e6403b0641 user=alice channel=api
+2026-06-24 00:32:52.291 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8322 out=34 | 累计 in=8322 out=34
+2026-06-24 00:37:45.635 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 00:37:49.732 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:37:49.764 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 00:37:49.831 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:37:53.289 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 00:37:57.261 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:37:57.262 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 00:37:57.325 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 00:59:13.343 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 00:59:18.179 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 00:59:18.180 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 00:59:18.490 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:13:58.309 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:14:01.419 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:14:01.421 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:14:01.503 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:15:11.433 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:15:15.476 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:15:15.476 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:15:15.583 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:15:23.929 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:15:27.516 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:15:27.517 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:15:27.587 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:23:40.764 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:23:49.291 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:23:49.293 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:23:49.413 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:23:49.774 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:23:59.627 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:23:59.629 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:23:59.822 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:25:15.907 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:25:24.068 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:25:24.070 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:25:24.202 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:25:26.101 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:25:35.083 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:25:35.085 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:25:35.225 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:36:50.644 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:36:58.552 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:36:58.554 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:36:58.710 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:37:20.548 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:37:27.885 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:37:27.887 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:37:28.052 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:37:37.791 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:37:45.458 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:37:45.467 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:37:45.616 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:37:45.899 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:37:53.067 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:37:53.068 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:37:53.211 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:37:53.435 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:38:00.044 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:38:00.046 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:38:00.166 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:40:31.369 | INFO     | sandbox.docker_manager:create_one_sandbox:159 - 加固容器已起：syc-sbx-db70013c8cf4（runtime=runc）
+2026-06-24 01:40:35.798 | INFO     | sandbox.docker_manager:destroy_sandbox:243 - 容器已销毁：syc-sbx-db70013c8cf4
+2026-06-24 01:41:24.983 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:41:32.950 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:41:32.952 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:41:33.088 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:41:33.372 | INFO     | api.app:lifespan:67 - 连接池已释放
+2026-06-24 01:41:40.542 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 01:41:40.543 | INFO     | api.app:lifespan:39 - Postgres 连接池已打开
+2026-06-24 01:41:40.678 | INFO     | api.app:lifespan:48 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 01:41:42.254 | INFO     | sandbox.docker_manager:create_one_sandbox:159 - 加固容器已起：syc-sbx-3813940d859b（runtime=runc）
+2026-06-24 01:41:43.170 | INFO     | sandbox.docker_manager:seed_project:226 - 项目已 seed 进容器 syc-sbx-3813940d859b
+2026-06-24 11:36:35.598 | INFO     | sandbox.docker_manager:create_one_sandbox:159 - 加固容器已起：syc-sbx-0e0b4fcc92f2（runtime=runc）
+2026-06-24 11:36:35.600 | INFO     | sandbox.docker_manager:create_one_sandbox:159 - 加固容器已起：syc-sbx-4706aac89ea7（runtime=runsc）
+2026-06-24 11:36:35.601 | INFO     | sandbox.docker_manager:create_one_sandbox:159 - 加固容器已起：syc-sbx-144031f1107f（runtime=kata）
+2026-06-24 14:07:17.271 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:07:17.272 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:08:25.551 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:08:25.552 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:08:25.698 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:15:27.170 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:15:30.041 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:15:30.041 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:15:30.129 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:15:54.046 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:15:56.733 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:15:56.734 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:15:56.829 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:17:36.397 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:17:39.295 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:17:39.295 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:17:39.388 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:17:41.983 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:17:44.820 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:17:44.820 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:17:44.907 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:17:48.265 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:17:51.137 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:17:51.138 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:17:51.243 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:20:22.409 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:20:25.200 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:20:25.201 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:20:25.274 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:20:26.642 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:20:29.451 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:20:29.452 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:20:29.556 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:21:58.686 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:22:01.565 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:22:01.566 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:22:01.665 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:22:09.723 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:22:12.602 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:22:12.603 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:22:12.665 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:26:30.723 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:26:33.601 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:26:33.602 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:26:33.689 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:27:23.225 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:27:26.178 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:27:26.179 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:27:26.263 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:28:00.746 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:28:03.539 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:28:03.539 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:28:03.589 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:28:07.146 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:28:10.040 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:28:10.041 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:28:10.138 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:28:32.250 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:28:35.170 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:28:35.170 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:28:35.257 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:28:43.055 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:28:46.011 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:28:46.012 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:28:46.074 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:28:48.424 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:28:51.309 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:28:51.310 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:28:51.418 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:28:55.518 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:28:58.371 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:28:58.372 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:28:58.489 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:29:06.043 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:29:09.021 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:29:09.022 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:29:09.089 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:40:30.030 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:40:33.099 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:40:33.100 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:40:33.187 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:51:28.972 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:51:31.923 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:51:31.924 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:51:32.025 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:52:04.955 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-24 14:52:04.956 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-24 14:52:05.030 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=b1c637d95b86 user=anonymous channel=api
+2026-06-24 14:52:19.228 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8438 out=186 | 累计 in=8438 out=186
+2026-06-24 14:52:19.234 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 14:52:19.236 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-24 14:52:55.961 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8800 out=659 | 累计 in=17238 out=845
+2026-06-24 14:52:55.966 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:52:55.969 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（3 ms）
+2026-06-24 14:53:33.972 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9479 out=662 | 累计 in=26717 out=1507
+2026-06-24 14:53:33.978 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:53:33.980 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（2 ms）
+2026-06-24 14:53:50.072 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10158 out=186 | 累计 in=36875 out=1693
+2026-06-24 14:53:50.076 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 14:53:50.077 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（1 ms）
+2026-06-24 14:54:17.707 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10524 out=659 | 累计 in=47399 out=2352
+2026-06-24 14:54:17.711 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:54:17.712 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（1 ms）
+2026-06-24 14:54:29.136 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11203 out=189 | 累计 in=58602 out=2541
+2026-06-24 14:54:29.139 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 14:54:29.140 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（1 ms）
+2026-06-24 14:54:40.439 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11569 out=105 | 累计 in=70171 out=2646
+2026-06-24 14:54:40.443 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：ls
+2026-06-24 14:54:40.445 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：ls（3 ms）
+2026-06-24 14:54:45.041 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11693 out=17 | 累计 in=81864 out=2663
+2026-06-24 14:54:45.044 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：ls
+2026-06-24 14:54:45.053 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：ls（9 ms）
+2026-06-24 14:55:25.332 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11843 out=724 | 累计 in=93707 out=3387
+2026-06-24 14:55:25.338 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:55:25.339 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（1 ms）
+2026-06-24 14:55:40.723 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=12584 out=186 | 累计 in=106291 out=3573
+2026-06-24 14:55:40.728 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 14:55:40.731 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（3 ms）
+2026-06-24 14:56:13.986 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=12950 out=659 | 累计 in=119241 out=4232
+2026-06-24 14:56:13.992 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:56:13.993 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（1 ms）
+2026-06-24 14:56:26.630 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=13629 out=186 | 累计 in=132870 out=4418
+2026-06-24 14:56:26.638 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 14:56:26.640 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-24 14:57:00.068 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=13995 out=726 | 累计 in=146865 out=5144
+2026-06-24 14:57:00.074 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:57:00.076 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（2 ms）
+2026-06-24 14:57:12.050 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=14741 out=186 | 累计 in=161606 out=5330
+2026-06-24 14:57:12.054 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 14:57:12.055 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（1 ms）
+2026-06-24 14:57:48.792 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=15107 out=651 | 累计 in=176713 out=5981
+2026-06-24 14:57:55.332 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 14:57:57.990 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 14:57:57.991 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 14:57:58.052 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 14:58:03.168 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-24 14:58:03.170 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-24 14:58:03.424 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=02a6b274e5ec user=anonymous channel=api
+2026-06-24 14:58:12.605 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8438 out=179 | 累计 in=8438 out=179
+2026-06-24 14:58:12.616 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 14:58:12.619 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-24 14:58:46.396 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8786 out=774 | 累计 in=17224 out=953
+2026-06-24 14:58:46.408 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:58:46.413 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（5 ms）
+2026-06-24 14:59:26.209 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=9580 out=777 | 累计 in=26804 out=1730
+2026-06-24 14:59:26.233 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:59:26.238 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（5 ms）
+2026-06-24 14:59:57.330 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=10374 out=774 | 累计 in=37178 out=2504
+2026-06-24 14:59:57.343 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 14:59:57.345 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（2 ms）
+2026-06-24 15:00:11.303 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11168 out=179 | 累计 in=48346 out=2683
+2026-06-24 15:00:11.325 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 15:00:11.329 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（4 ms）
+2026-06-24 15:00:56.930 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=11520 out=774 | 累计 in=59866 out=3457
+2026-06-24 15:00:56.941 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_file
+2026-06-24 15:00:56.942 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_file（2 ms）
+2026-06-24 15:01:08.205 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=12314 out=236 | 累计 in=72180 out=3693
+2026-06-24 15:01:08.218 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 15:01:08.220 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-24 15:01:23.309 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=12723 out=179 | 累计 in=84903 out=3872
+2026-06-24 15:01:23.320 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 15:01:23.321 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-24 15:01:37.890 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=13075 out=179 | 累计 in=97978 out=4051
+2026-06-24 15:01:37.902 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 15:01:37.904 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-24 15:01:53.309 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=13427 out=178 | 累计 in=111405 out=4229
+2026-06-24 15:01:53.323 | INFO     | middleware.audit:awrap_tool_call:31 - 🔧 调用工具：write_todos
+2026-06-24 15:01:53.325 | INFO     | middleware.audit:awrap_tool_call:34 - ✅ 工具完成：write_todos（2 ms）
+2026-06-24 15:02:49.135 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=13777 out=769 | 累计 in=125182 out=4998
+2026-06-24 15:09:16.019 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-24 15:09:16.024 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-24 15:09:16.354 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=933d2d591096 user=web channel=webhook
+2026-06-24 15:09:20.859 | INFO     | middleware.cost:awrap_model_call:50 - 💰 本次模型调用：in=8359 out=29 | 累计 in=8359 out=29
+2026-06-24 15:15:33.577 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:15:36.882 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:15:36.883 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 15:15:36.960 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:15:45.538 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:15:48.420 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:15:48.421 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 15:15:48.485 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:21:56.368 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:21:59.140 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:21:59.141 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 15:21:59.254 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:24:08.316 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:24:11.210 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:24:11.211 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 15:24:11.286 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:24:31.665 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:24:34.543 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:24:34.544 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 15:24:34.641 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:28:12.973 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:28:15.825 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:28:15.826 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 15:28:15.890 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:28:20.743 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:28:23.801 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:28:23.802 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 15:28:23.863 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:34:34.651 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:34:37.696 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:34:37.697 | INFO     | api.app:lifespan:41 - Postgres 连接池已打开
+2026-06-24 15:34:37.778 | INFO     | api.app:lifespan:50 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:49:08.791 | INFO     | api.app:lifespan:69 - 连接池已释放
+2026-06-24 15:49:30.385 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:49:30.386 | INFO     | api.app:lifespan:43 - Postgres 连接池已打开
+2026-06-24 15:49:30.481 | INFO     | api.app:lifespan:52 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 15:57:56.409 | INFO     | api.app:lifespan:71 - 连接池已释放
+2026-06-24 15:57:59.374 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 15:57:59.375 | INFO     | api.app:lifespan:43 - Postgres 连接池已打开
+2026-06-24 15:57:59.440 | INFO     | api.app:lifespan:52 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:04:05.591 | INFO     | api.app:lifespan:71 - 连接池已释放
+2026-06-24 16:04:08.628 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:04:08.629 | INFO     | api.app:lifespan:43 - Postgres 连接池已打开
+2026-06-24 16:04:08.710 | INFO     | api.app:lifespan:52 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:05:01.492 | INFO     | api.app:lifespan:71 - 连接池已释放
+2026-06-24 16:05:04.268 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:05:04.269 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:05:04.339 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:05:34.386 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-24 16:05:34.388 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-24 16:05:34.577 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=fdc598265c38 user=alice channel=api
+2026-06-24 16:05:41.562 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8355 out=31 | 累计 in=8355 out=31
+2026-06-24 16:05:41.906 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=cef15332b0ce user=alice channel=api
+2026-06-24 16:05:47.022 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8370 out=32 | 累计 in=8370 out=32
+2026-06-24 16:05:47.035 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（2 ms）
+2026-06-24 16:05:57.987 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8417 out=53 | 累计 in=16787 out=85
+2026-06-24 16:10:28.730 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:10:32.113 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:10:32.113 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:10:32.180 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:10:35.131 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:10:38.113 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:10:38.114 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:10:38.187 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:13:31.565 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:13:34.530 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:13:34.531 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:13:34.579 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:14:02.059 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:14:04.972 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:14:04.973 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:14:05.052 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:14:15.839 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:14:18.743 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:14:18.743 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:14:18.820 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:15:45.233 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:15:48.170 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:15:48.171 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:15:48.239 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:15:55.019 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:15:57.941 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:15:57.942 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:15:58.024 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:16:02.280 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:16:05.201 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:16:05.203 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:16:05.309 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:16:14.649 | INFO     | tasks.worker:on_startup:53 - arq worker 启动：持久化就绪，指标端口 :8002
+2026-06-24 16:16:15.445 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-24 16:16:15.447 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-24 16:16:15.817 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=66ecdc835728 user=u channel=api
+2026-06-24 16:16:15.884 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=3739597a7e27 user=u channel=api
+2026-06-24 16:16:15.981 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=202db848f7a4 user=u channel=api
+2026-06-24 16:16:15.983 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=ac986c583b77 user=u channel=api
+2026-06-24 16:16:16.193 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=01dd576e161d user=u channel=api
+2026-06-24 16:16:16.535 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=8fefbcfc21c8 user=u channel=api
+2026-06-24 16:16:17.109 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=2ede35480d60 user=u channel=api
+2026-06-24 16:16:17.478 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=0ac59b52944b user=u channel=api
+2026-06-24 16:16:17.481 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=9a71162451bd user=u channel=api
+2026-06-24 16:16:17.484 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=846228c9e528 user=u channel=api
+2026-06-24 16:16:19.624 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=19 | 累计 in=8316 out=19
+2026-06-24 16:16:19.710 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=13 | 累计 in=8316 out=13
+2026-06-24 16:16:19.730 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=10 | 累计 in=8316 out=10
+2026-06-24 16:16:19.821 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=15 | 累计 in=8316 out=15
+2026-06-24 16:16:20.074 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=12 | 累计 in=8316 out=12
+2026-06-24 16:16:20.107 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=13 | 累计 in=8316 out=13
+2026-06-24 16:16:21.096 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=19 | 累计 in=8316 out=19
+2026-06-24 16:16:21.519 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=19 | 累计 in=8316 out=19
+2026-06-24 16:16:22.207 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=19 | 累计 in=8316 out=19
+2026-06-24 16:16:22.732 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8316 out=19 | 累计 in=8316 out=19
+2026-06-24 16:16:49.095 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=62cfa710a8cd user=alice channel=api
+2026-06-24 16:16:53.292 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8318 out=28 | 累计 in=8318 out=28
+2026-06-24 16:17:24.327 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=14e62b38f5cd user=alice channel=api
+2026-06-24 16:17:30.871 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8318 out=35 | 累计 in=8318 out=35
+2026-06-24 16:52:26.244 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:52:29.206 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:52:29.207 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:52:29.269 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:52:30.145 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:52:33.033 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:52:33.034 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:52:33.118 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:56:40.086 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:56:43.132 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:56:43.133 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:56:43.205 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 16:56:46.579 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 16:56:49.596 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 16:56:49.597 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 16:56:49.660 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 17:05:57.611 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 17:06:00.792 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 17:06:00.793 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 17:06:00.849 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 17:06:02.917 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 17:06:05.903 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 17:06:05.904 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 17:06:05.960 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 17:06:40.413 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 17:06:43.437 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 17:06:43.438 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 17:06:43.629 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 17:06:46.169 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 17:06:49.177 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 17:06:49.178 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 17:06:49.258 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 17:13:04.340 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 17:13:07.436 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 17:13:07.437 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 17:13:07.541 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 17:13:10.277 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 17:13:13.225 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 17:13:13.226 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 17:13:13.326 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 17:13:14.148 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-plus
+2026-06-24 17:13:14.150 | INFO     | infra.llm_router:_build:37 - 构造模型：qwen-turbo
+2026-06-24 17:13:14.364 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=03ddf74f42f2 user=anonymous channel=api
+2026-06-24 17:13:14.367 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=07b045fd1f99 user=anonymous channel=api
+2026-06-24 17:13:14.601 | INFO     | sandbox.docker_manager:create_one_sandbox:161 - 加固容器已起：syc-sbx-1fb18a08a322（runtime=runc）
+2026-06-24 17:13:15.085 | INFO     | sandbox.docker_manager:seed_project:230 - 项目已 seed 进容器 syc-sbx-1fb18a08a322
+2026-06-24 17:13:15.092 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=8d77480ed01c user=anonymous channel=api
+2026-06-24 17:13:31.233 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8356 out=207 | 累计 in=8356 out=207
+2026-06-24 17:13:31.248 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:13:31.250 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（4 ms）
+2026-06-24 17:13:34.905 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=217 | 累计 in=8322 out=217
+2026-06-24 17:13:36.427 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=014a75da9039 user=anonymous channel=api
+2026-06-24 17:13:56.815 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8747 out=250 | 累计 in=17103 out=457
+2026-06-24 17:13:56.843 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（3 ms）
+2026-06-24 17:14:08.902 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8321 out=358 | 累计 in=8321 out=358
+2026-06-24 17:14:10.924 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（2011 ms）
+2026-06-24 17:14:19.024 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8690 out=86 | 累计 in=17011 out=444
+2026-06-24 17:14:20.628 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（1593 ms）
+2026-06-24 17:14:26.311 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8787 out=87 | 累计 in=25798 out=531
+2026-06-24 17:14:27.906 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（1585 ms）
+2026-06-24 17:14:38.146 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8882 out=123 | 累计 in=34680 out=654
+2026-06-24 17:14:38.161 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（3 ms）
+2026-06-24 17:14:47.093 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 task ok（50255 ms）
+2026-06-24 17:14:47.205 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=344 | 累计 in=8322 out=344
+2026-06-24 17:14:48.554 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9024 out=97 | 累计 in=43704 out=751
+2026-06-24 17:14:48.572 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（3 ms）
+2026-06-24 17:14:49.069 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=44fe18e0e42b user=anonymous channel=api
+2026-06-24 17:14:52.319 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9191 out=104 | 累计 in=26294 out=561
+2026-06-24 17:14:52.333 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（2 ms）
+2026-06-24 17:15:02.499 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9314 out=90 | 累计 in=35608 out=651
+2026-06-24 17:15:02.519 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（8 ms）
+2026-06-24 17:15:05.331 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9299 out=155 | 累计 in=53003 out=906
+2026-06-24 17:15:05.347 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（7 ms）
+2026-06-24 17:15:11.186 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9587 out=130 | 累计 in=62590 out=1036
+2026-06-24 17:15:11.200 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（3 ms）
+2026-06-24 17:15:15.760 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9537 out=222 | 累计 in=45145 out=873
+2026-06-24 17:15:15.773 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:15:20.588 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9736 out=96 | 累计 in=72326 out=1132
+2026-06-24 17:15:20.617 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（14 ms）
+2026-06-24 17:15:29.551 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9962 out=91 | 累计 in=82288 out=1223
+2026-06-24 17:15:29.588 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8324 out=378 | 累计 in=8324 out=378
+2026-06-24 17:15:29.600 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（2 ms）
+2026-06-24 17:15:31.215 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（1651 ms）
+2026-06-24 17:15:32.067 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9779 out=227 | 累计 in=54924 out=1100
+2026-06-24 17:15:37.902 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8767 out=80 | 累计 in=17091 out=458
+2026-06-24 17:15:49.689 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10061 out=172 | 累计 in=92349 out=1395
+2026-06-24 17:15:51.325 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=559971f344df user=anonymous channel=api
+2026-06-24 17:15:56.719 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8331 out=45 | 累计 in=8331 out=45
+2026-06-24 17:15:56.729 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:16:03.191 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 task ok（31116 ms）
+2026-06-24 17:16:03.956 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（26045 ms）
+2026-06-24 17:16:04.916 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8395 out=110 | 累计 in=16726 out=155
+2026-06-24 17:16:06.518 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=7119519e52cc user=anonymous channel=api
+2026-06-24 17:16:11.402 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8858 out=134 | 累计 in=25949 out=592
+2026-06-24 17:16:24.057 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（12648 ms）
+2026-06-24 17:16:24.519 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8334 out=219 | 累计 in=8334 out=219
+2026-06-24 17:16:24.528 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:16:26.343 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10181 out=330 | 累计 in=65105 out=1430
+2026-06-24 17:16:26.355 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:16:31.572 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8572 out=76 | 累计 in=16906 out=295
+2026-06-24 17:16:31.582 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（3 ms）
+2026-06-24 17:16:32.666 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9003 out=83 | 累计 in=34952 out=675
+2026-06-24 17:16:41.473 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10677 out=253 | 累计 in=75782 out=1683
+2026-06-24 17:16:41.490 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（2 ms）
+2026-06-24 17:16:44.091 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8664 out=258 | 累计 in=25570 out=553
+2026-06-24 17:16:44.103 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:16:45.193 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（12517 ms）
+2026-06-24 17:16:53.339 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8941 out=93 | 累计 in=34511 out=646
+2026-06-24 17:16:53.355 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（7 ms）
+2026-06-24 17:16:57.422 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9097 out=155 | 累计 in=44049 out=830
+2026-06-24 17:17:03.076 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=11099 out=381 | 累计 in=86881 out=2064
+2026-06-24 17:17:03.089 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:17:04.214 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 glob ok（6784 ms）
+2026-06-24 17:17:09.078 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9167 out=308 | 累计 in=43678 out=954
+2026-06-24 17:17:10.601 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=b10028c98dbb user=anonymous channel=api
+2026-06-24 17:17:18.163 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8329 out=129 | 累计 in=8329 out=129
+2026-06-24 17:17:18.645 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8305 out=177 | 累计 in=52354 out=1007
+2026-06-24 17:17:18.659 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:17:21.379 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=11649 out=384 | 累计 in=98530 out=2448
+2026-06-24 17:17:21.396 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:17:24.108 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8305 out=49 | 累计 in=60659 out=1056
+2026-06-24 17:17:25.637 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=2051f1cf291c user=anonymous channel=api
+2026-06-24 17:17:31.837 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（13665 ms）
+2026-06-24 17:17:35.061 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=12199 out=208 | 累计 in=110729 out=2656
+2026-06-24 17:17:36.683 | INFO     | sandbox.docker_manager:destroy_sandbox:247 - 容器已销毁：syc-sbx-1fb18a08a322
+2026-06-24 17:17:36.694 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=ad9f49a08f33 user=anonymous channel=api
+2026-06-24 17:17:47.674 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=14145 out=263 | 累计 in=22474 out=392
+2026-06-24 17:17:47.683 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:17:48.298 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8331 out=196 | 累计 in=8331 out=196
+2026-06-24 17:17:49.764 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=3cd859f2adbd user=anonymous channel=api
+2026-06-24 17:17:50.559 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8327 out=243 | 累计 in=8327 out=243
+2026-06-24 17:17:52.275 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=fec66df537ab user=anonymous channel=api
+2026-06-24 17:17:54.404 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=14426 out=85 | 累计 in=36900 out=477
+2026-06-24 17:17:54.413 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（2 ms）
+2026-06-24 17:17:54.436 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=28 | 累计 in=8322 out=28
+2026-06-24 17:17:55.921 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=df0c206d6d77 user=anonymous channel=api
+2026-06-24 17:18:04.036 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8326 out=217 | 累计 in=8326 out=217
+2026-06-24 17:18:05.679 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=c77c89c6c166 user=anonymous channel=api
+2026-06-24 17:18:08.053 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=14529 out=209 | 累计 in=51429 out=686
+2026-06-24 17:18:08.063 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:18:20.544 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=14756 out=118 | 累计 in=66185 out=804
+2026-06-24 17:18:20.556 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（3 ms）
+2026-06-24 17:18:27.231 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=315 | 累计 in=8322 out=315
+2026-06-24 17:18:28.659 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=a2d97bd97a27 user=anonymous channel=api
+2026-06-24 17:18:35.793 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8323 out=481 | 累计 in=8323 out=481
+2026-06-24 17:18:37.868 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=ff9c4771656b user=anonymous channel=api
+2026-06-24 17:18:38.192 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=14893 out=257 | 累计 in=81078 out=1061
+2026-06-24 17:18:38.204 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:18:52.435 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=15167 out=214 | 累计 in=96245 out=1275
+2026-06-24 17:18:53.663 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=0a17ec8cb74c user=anonymous channel=api
+2026-06-24 17:18:58.669 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8321 out=362 | 累计 in=8321 out=362
+2026-06-24 17:18:59.150 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8331 out=52 | 累计 in=8331 out=52
+2026-06-24 17:18:59.163 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:19:00.137 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=7ae0f7d21e24 user=anonymous channel=api
+2026-06-24 17:19:05.702 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=416 | 累计 in=8322 out=416
+2026-06-24 17:19:08.042 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=03f58acae419 user=anonymous channel=api
+2026-06-24 17:19:12.354 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8334 out=177 | 累计 in=8334 out=177
+2026-06-24 17:19:13.124 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8402 out=174 | 累计 in=16733 out=226
+2026-06-24 17:19:13.854 | INFO     | sandbox.docker_manager:create_one_sandbox:161 - 加固容器已起：syc-sbx-ef6ad4b93e96（runtime=runc）
+2026-06-24 17:19:14.264 | INFO     | sandbox.docker_manager:seed_project:230 - 项目已 seed 进容器 syc-sbx-ef6ad4b93e96
+2026-06-24 17:19:14.273 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=426230d5f0ae user=anonymous channel=api
+2026-06-24 17:19:14.689 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=225ea594f657 user=anonymous channel=api
+2026-06-24 17:19:22.201 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8356 out=160 | 累计 in=8356 out=160
+2026-06-24 17:19:22.216 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:19:22.220 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（3 ms）
+2026-06-24 17:19:27.586 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8331 out=142 | 累计 in=8331 out=142
+2026-06-24 17:19:28.428 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8324 out=338 | 累计 in=8324 out=338
+2026-06-24 17:19:29.301 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=564a7cccd28c user=anonymous channel=api
+2026-06-24 17:19:30.300 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=79e07e01c707 user=anonymous channel=api
+2026-06-24 17:19:31.855 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=23 | 累计 in=8322 out=23
+2026-06-24 17:19:33.142 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=f81f80c7be80 user=anonymous channel=api
+2026-06-24 17:19:36.357 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8659 out=220 | 累计 in=17015 out=380
+2026-06-24 17:19:36.373 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（2 ms）
+2026-06-24 17:19:36.375 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:19:39.448 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8327 out=159 | 累计 in=8327 out=159
+2026-06-24 17:19:40.809 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=6dea4e687a19 user=anonymous channel=api
+2026-06-24 17:19:44.967 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9024 out=133 | 累计 in=26039 out=513
+2026-06-24 17:19:44.981 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:19:51.004 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8326 out=189 | 累计 in=8326 out=189
+2026-06-24 17:19:51.021 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（3 ms）
+2026-06-24 17:19:53.347 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=249 | 累计 in=8322 out=249
+2026-06-24 17:19:55.623 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=f0d7cc83732c user=anonymous channel=api
+2026-06-24 17:19:56.800 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9278 out=243 | 累计 in=35317 out=756
+2026-06-24 17:19:56.811 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:19:59.301 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8820 out=131 | 累计 in=17146 out=320
+2026-06-24 17:19:59.311 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 web_search ok（1 ms）
+2026-06-24 17:20:01.205 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9646 out=38 | 累计 in=44963 out=794
+2026-06-24 17:20:01.217 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（2 ms）
+2026-06-24 17:20:10.659 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9920 out=131 | 累计 in=54883 out=925
+2026-06-24 17:20:10.669 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:20:12.577 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8991 out=251 | 累计 in=26137 out=571
+2026-06-24 17:20:12.593 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:20:18.775 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10176 out=91 | 累计 in=65059 out=1016
+2026-06-24 17:20:18.790 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（2 ms）
+2026-06-24 17:20:28.068 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10290 out=131 | 累计 in=75349 out=1147
+2026-06-24 17:20:28.085 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:20:31.236 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8323 out=454 | 累计 in=8323 out=454
+2026-06-24 17:20:31.737 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9260 out=273 | 累计 in=35397 out=844
+2026-06-24 17:20:33.085 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=f8a80b6cbb28 user=anonymous channel=api
+2026-06-24 17:20:34.320 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=ca90b48d72f8 user=anonymous channel=api
+2026-06-24 17:20:43.306 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8329 out=129 | 累计 in=8329 out=129
+2026-06-24 17:20:43.318 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:20:46.291 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10546 out=355 | 累计 in=85895 out=1502
+2026-06-24 17:20:46.306 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:20:54.421 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8480 out=98 | 累计 in=16809 out=227
+2026-06-24 17:20:54.434 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（2 ms）
+2026-06-24 17:20:55.157 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10924 out=131 | 累计 in=96819 out=1633
+2026-06-24 17:20:55.178 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（2 ms）
+2026-06-24 17:20:55.982 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8321 out=301 | 累计 in=8321 out=301
+2026-06-24 17:20:55.998 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（4 ms）
+2026-06-24 17:21:00.499 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8641 out=73 | 累计 in=16962 out=374
+2026-06-24 17:21:00.520 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（5 ms）
+2026-06-24 17:21:10.789 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8892 out=121 | 累计 in=25854 out=495
+2026-06-24 17:21:13.697 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=11180 out=397 | 累计 in=107999 out=2030
+2026-06-24 17:21:13.712 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:21:15.848 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8597 out=195 | 累计 in=25406 out=422
+2026-06-24 17:21:15.861 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:21:16.070 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=11702 out=14 | 累计 in=119701 out=2044
+2026-06-24 17:21:16.191 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 git_status ok（100 ms）
+2026-06-24 17:21:25.201 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=12485 out=130 | 累计 in=132186 out=2174
+2026-06-24 17:21:25.218 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:21:29.742 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 grep ok（18944 ms）
+2026-06-24 17:21:30.135 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8812 out=124 | 累计 in=34218 out=546
+2026-06-24 17:21:30.158 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（11 ms）
+2026-06-24 17:21:33.017 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=12739 out=166 | 累计 in=144925 out=2340
+2026-06-24 17:21:34.368 | INFO     | sandbox.docker_manager:destroy_sandbox:247 - 容器已销毁：syc-sbx-ef6ad4b93e96
+2026-06-24 17:21:34.379 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=51f2718f10e4 user=anonymous channel=api
+2026-06-24 17:21:39.781 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9107 out=123 | 累计 in=34961 out=618
+2026-06-24 17:21:39.797 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（2 ms）
+2026-06-24 17:21:46.470 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9249 out=93 | 累计 in=44210 out=711
+2026-06-24 17:21:46.484 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（3 ms）
+2026-06-24 17:21:49.670 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9069 out=261 | 累计 in=43287 out=807
+2026-06-24 17:21:49.683 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:22:01.674 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9351 out=226 | 累计 in=52638 out=1033
+2026-06-24 17:22:03.504 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=5aeb70d1213c user=anonymous channel=api
+2026-06-24 17:22:06.031 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9562 out=200 | 累计 in=53772 out=911
+2026-06-24 17:22:07.703 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=2b05a5d02f27 user=anonymous channel=api
+2026-06-24 17:22:11.178 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8331 out=49 | 累计 in=8331 out=49
+2026-06-24 17:22:11.193 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:22:11.875 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=373 | 累计 in=8322 out=373
+2026-06-24 17:22:13.555 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=ff0cf1c8cfc7 user=anonymous channel=api
+2026-06-24 17:22:18.501 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8334 out=148 | 累计 in=8334 out=148
+2026-06-24 17:22:18.512 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:22:27.349 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8396 out=170 | 累计 in=16727 out=219
+2026-06-24 17:22:27.359 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:22:27.377 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8620 out=149 | 累计 in=16954 out=297
+2026-06-24 17:22:27.397 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:22:29.099 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8788 out=18 | 累计 in=25742 out=315
+2026-06-24 17:22:29.113 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（3 ms）
+2026-06-24 17:22:37.818 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8582 out=145 | 累计 in=25309 out=364
+2026-06-24 17:22:37.834 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:22:39.022 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8331 out=203 | 累计 in=8331 out=203
+2026-06-24 17:22:40.573 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=27aff5fca0b8 user=anonymous channel=api
+2026-06-24 17:22:41.234 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8825 out=149 | 累计 in=34567 out=464
+2026-06-24 17:22:41.247 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:22:47.200 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8993 out=92 | 累计 in=43560 out=556
+2026-06-24 17:22:47.213 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（3 ms）
+2026-06-24 17:22:49.232 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9104 out=33 | 累计 in=52664 out=589
+2026-06-24 17:22:49.246 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（5 ms）
+2026-06-24 17:22:51.929 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8747 out=172 | 累计 in=34056 out=536
+2026-06-24 17:22:51.941 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:22:59.332 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8324 out=287 | 累计 in=8324 out=287
+2026-06-24 17:23:00.600 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=0a97be33ddbc user=anonymous channel=api
+2026-06-24 17:23:01.193 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9152 out=183 | 累计 in=61816 out=772
+2026-06-24 17:23:01.206 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:23:04.213 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8322 out=26 | 累计 in=8322 out=26
+2026-06-24 17:23:04.888 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8940 out=180 | 累计 in=42996 out=716
+2026-06-24 17:23:04.897 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:23:05.697 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=9f217e085a58 user=anonymous channel=api
+2026-06-24 17:23:19.860 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9354 out=229 | 累计 in=71170 out=1001
+2026-06-24 17:23:19.875 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:23:21.485 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9137 out=190 | 累计 in=52133 out=906
+2026-06-24 17:23:21.498 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:23:22.040 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9725 out=31 | 累计 in=80895 out=1032
+2026-06-24 17:23:22.057 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（2 ms）
+2026-06-24 17:23:22.423 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8327 out=169 | 累计 in=8327 out=169
+2026-06-24 17:23:24.398 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=6684facf124c user=anonymous channel=api
+2026-06-24 17:23:27.860 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9348 out=112 | 累计 in=61481 out=1018
+2026-06-24 17:23:29.505 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=92fbff8f1c4c user=anonymous channel=api
+2026-06-24 17:23:36.612 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9775 out=173 | 累计 in=90670 out=1205
+2026-06-24 17:23:36.626 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:23:43.883 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8326 out=143 | 累计 in=8326 out=143
+2026-06-24 17:23:45.339 | INFO     | sandbox.docker_manager:create_one_sandbox:161 - 加固容器已起：syc-sbx-cdee0ecffc4b（runtime=runc）
+2026-06-24 17:23:45.738 | INFO     | sandbox.docker_manager:seed_project:230 - 项目已 seed 进容器 syc-sbx-cdee0ecffc4b
+2026-06-24 17:23:45.747 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=f8ba0fe43b0e user=anonymous channel=api
+2026-06-24 17:23:53.576 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8356 out=166 | 累计 in=8356 out=166
+2026-06-24 17:23:53.589 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（2 ms）
+2026-06-24 17:23:53.592 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（4 ms）
+2026-06-24 17:23:57.729 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8676 out=34 | 累计 in=17032 out=200
+2026-06-24 17:23:57.743 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（2 ms）
+2026-06-24 17:24:01.826 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9965 out=368 | 累计 in=100635 out=1573
+2026-06-24 17:24:01.838 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:24:07.544 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8323 out=475 | 累计 in=8323 out=475
+2026-06-24 17:24:09.682 | INFO     | middleware.context:abefore_agent:38 - ▶ 开始运行：request_id=e2ff53a71fce user=anonymous channel=api
+2026-06-24 17:24:13.280 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10476 out=148 | 累计 in=111111 out=1721
+2026-06-24 17:24:13.292 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:24:16.236 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8329 out=84 | 累计 in=8329 out=84
+2026-06-24 17:24:16.249 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:24:20.227 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8434 out=64 | 累计 in=16763 out=148
+2026-06-24 17:24:20.243 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（4 ms）
+2026-06-24 17:24:23.986 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8732 out=330 | 累计 in=25764 out=530
+2026-06-24 17:24:23.997 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:24:23.998 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:24:26.879 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=10766 out=148 | 累计 in=121877 out=1869
+2026-06-24 17:24:26.892 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（1 ms）
+2026-06-24 17:24:30.601 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8516 out=145 | 累计 in=25279 out=293
+2026-06-24 17:24:30.614 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_file ok（1 ms）
+2026-06-24 17:24:36.429 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9221 out=177 | 累计 in=34985 out=707
+2026-06-24 17:24:36.442 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 read_file ok（2 ms）
+2026-06-24 17:24:38.949 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8681 out=84 | 累计 in=33960 out=377
+2026-06-24 17:24:38.966 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 ls ok（4 ms）
+2026-06-24 17:24:45.302 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=9420 out=130 | 累计 in=44405 out=837
+2026-06-24 17:24:46.616 | INFO     | sandbox.docker_manager:destroy_sandbox:247 - 容器已销毁：syc-sbx-cdee0ecffc4b
+2026-06-24 17:24:51.343 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=8781 out=209 | 累计 in=42741 out=586
+2026-06-24 17:25:01.371 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=11056 out=498 | 累计 in=132933 out=2367
+2026-06-24 17:25:01.390 | INFO     | middleware.audit:awrap_tool_call:34 - 🔧 工具 write_todos ok（2 ms）
+2026-06-24 17:25:09.295 | INFO     | middleware.cost:awrap_model_call:50 - 💰 模型调用[strong]：in=11695 out=74 | 累计 in=144628 out=2441
+2026-06-24 19:06:45.427 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 19:06:52.106 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 19:06:52.106 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 19:06:52.197 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 19:10:51.603 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 19:10:54.626 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 19:10:54.627 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 19:10:54.704 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 19:11:01.573 | INFO     | api.app:lifespan:73 - 连接池已释放
+2026-06-24 19:11:04.563 | INFO     | profiles:register_all_profiles:11 - Harness Profiles 已注册
+2026-06-24 19:11:04.563 | INFO     | api.app:lifespan:45 - Postgres 连接池已打开
+2026-06-24 19:11:04.651 | INFO     | api.app:lifespan:54 - AsyncPostgresSaver / AsyncPostgresStore 已 setup
+2026-06-24 19:13:28.614 | INFO     | api.app:lifespan:73 - 连接池已释放
